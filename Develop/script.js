@@ -26,6 +26,12 @@ function writePassword() {
         alert("Your password will be " + pLength + " charcters long.");
     }
 
+    // confirm if certain characters are needed
+    var confSpecChar = confirm("Would you like to have special characters in your; password?");
+    var confirmNum = confirm("Would you like to have numbers in your password?");
+    var confirmLCase = confirm("Would you like to have lower case characters in your password?");
+    var confirmUCase = confirm("Would you like to have upper case characters in your password?");
+
 
 
     // var password = generatePassword();
